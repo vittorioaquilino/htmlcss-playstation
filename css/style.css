@@ -72,12 +72,14 @@ header {
 }
 
 /* MAIN */
+/* banner */
 .ms_banner {
     height: 680px;
     background-image: url('../img/jumbo-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 90px;
+    margin-bottom: 2rem;
     color: white;
 }
 
@@ -98,4 +100,19 @@ header {
     border-radius: 3rem;
     vertical-align: middle;
     border-color: transparent;
+}
+
+.ms_btn-red:hover {
+    background-color: white;
+    color: #CD4418;
+    border-color: #CD4418;
+}
+
+.ms_banner-text {
+    margin-bottom: 1.5rem;
+}
+
+/* catalogue */
+.ms_catalogue-icon img {
+    border-radius: 1rem;
 }
