@@ -74,6 +74,7 @@ header {
 /* MAIN */
 /* banner */
 .ms_banner {
+    width: 100%;
     height: 680px;
     background-image: url('../img/jumbo-bg.png');
     background-position: center;
@@ -113,6 +114,31 @@ header {
 }
 
 /* catalogue */
+.ms_catalogue {
+    margin-bottom: 7rem;
+}
+
 .ms_catalogue-icon img {
     border-radius: 1rem;
+}
+
+.ms_border-catalogue:hover {
+    border: 3px solid #0072ce;
+    border-radius: 1rem;
+    padding: .1rem;
+}
+
+/* console ps5 */
+.ms_console-top {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ms_console-top p {
+    margin-bottom: 0;
+    color: #0072ce;
+}
+
+.ms_console-top span {
+    color: gray;
 }
