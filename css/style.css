@@ -132,6 +132,7 @@ header {
 .ms_console-top {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 4rem;
 }
 
 .ms_console-top p {
@@ -139,6 +140,42 @@ header {
     color: #0072ce;
 }
 
-.ms_console-top span {
+.ms_section-console span {
     color: gray;
 }
+
+.ms_btn-blue {
+    background-color: #3569E4;
+    padding: .8rem;
+    line-height: .4;
+    border-radius: 3rem;
+    vertical-align: middle;
+    border-color: transparent;
+}
+
+.ms_btn-blue:hover {
+    background-color: white;
+    color: #3569E4;
+    border-color: #3569E4;
+}
+
+@media screen and (min-width:565px) {
+    .ms_console-text {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .ms_console-text {
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .ms_console-text {
+        padding-top: 15rem;
+    }
+}
+
+
+
