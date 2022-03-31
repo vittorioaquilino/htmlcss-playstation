@@ -1,0 +1,72 @@
+/* COMMON */
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.ms_header-top {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.ms_logo-sony {
+    width: 70px;
+    height: 100%;
+    padding-right: .3rem;
+}
+
+/* navbar */
+.ms_navbar {
+    background-color: white;
+}
+.ms_nav-link {
+    padding-top: .5rem;
+    display: flex;
+}
+
+.ms_nav-link li {
+    padding-right: 1.5rem;
+}
+
+.ms_nav-link a {
+    text-decoration: none;
+    padding-right: .2rem;
+    color: inherit;
+}
+
+.ms_nav-link i {
+    color: gray;
+    vertical-align: bottom;
+    font-size: .9rem;
+}
+
+.ms_navbar-collapse {
+    flex-grow: 0;
+}
+
+.ms_btn-dark {
+    background-color: #363636;
+    padding: .6rem;
+    line-height: .4;
+    border-radius: 3rem;
+    vertical-align: middle;
+}
+
+.ms_search i {
+    color: black;
+    font-size: 1.3rem;
+}
+
