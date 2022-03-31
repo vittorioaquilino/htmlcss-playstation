@@ -32,6 +32,7 @@ header {
 .ms_navbar {
     background-color: white;
 }
+
 .ms_nav-link {
     padding-top: .5rem;
     display: flex;
@@ -70,3 +71,31 @@ header {
     font-size: 1.3rem;
 }
 
+/* MAIN */
+.ms_banner {
+    height: 680px;
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    color: white;
+}
+
+.ms_banner-logo {
+    padding-top: 18rem;
+    margin-bottom: 2rem;
+}
+
+.ms_banner h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.ms_btn-red {
+    background-color: #CD4418;
+    padding: .8rem;
+    line-height: .4;
+    border-radius: 3rem;
+    vertical-align: middle;
+    border-color: transparent;
+}
