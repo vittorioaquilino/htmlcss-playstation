@@ -219,3 +219,11 @@ ul {
     background-color: #272727;
     color: white;
 }
+
+/* console ps4 */
+.ms_console-ps4 p {
+    color: gray;
+    font-weight: bold;
+}
+
+/* play plus */
