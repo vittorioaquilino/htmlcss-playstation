@@ -223,7 +223,6 @@ ul {
 /* console ps4 */
 .ms_console-ps4 p {
     color: gray;
-    font-weight: bold;
 }
 
 /* play plus */
@@ -258,4 +257,23 @@ ul {
     .ms_plus-logo {
         padding-top: 4rem;
     }
+}
+
+/* sales */
+.ms_section-sales p {
+    color: gray;
+}
+
+/* playstation now */
+.ms_section-play-now {
+    background-color: #1F2442;
+}
+
+.ms_section-play-now p {
+    color: white;
+}
+
+.ms_btn-white {
+    border-radius: 3rem;
+    
 }
