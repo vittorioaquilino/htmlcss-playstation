@@ -282,3 +282,47 @@ ul {
 .ms_section-social {
     margin-bottom: 6rem;
 }
+
+/* FOOTER */
+footer {
+    background-color: #0A499E;
+    color: white;
+    font-size: .8rem;
+}
+
+.ms_footer-content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ms_footer-logo {
+    width: 100px;
+    padding-bottom: 2rem;
+}
+
+.ms_footer-logo-2 {
+    width: 150px;
+    padding-bottom: 1rem;
+}
+
+.ms_footer-list ul {
+    display: inline-block;
+}
+
+.ms_footer-list li {
+    padding: .5rem 0;
+}
+
+.ms_footer-list a:hover {
+    text-decoration: underline;
+}
+
+.ms_footer-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ms_footer-content a {
+    color: inherit;
+}
+
