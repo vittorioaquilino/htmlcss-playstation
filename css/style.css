@@ -176,6 +176,7 @@ ul {
     width: 150px;
     text-align: center;
     opacity: .5;
+    margin-bottom: 3rem;
     
 }
 
@@ -187,4 +188,33 @@ ul {
 .ms_ps5-item:hover {
     border-bottom: 2px solid #0072ce;
     opacity: 1;
+}
+
+.ms_playstation5 p {
+    display: none;
+}
+
+@media screen and (min-width:768px){
+    .ms_playstation5 p {
+        display: block;
+    }
+}
+
+/* second banner */
+.ms_second-banner {
+    width: 100%;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.ms_second-banner .ms_banner-logo {
+    padding-top: 4rem;
+    width: 200px;
+}
+
+.ms_second-banner .ms_btn-red {
+    margin-bottom: ;
 }
