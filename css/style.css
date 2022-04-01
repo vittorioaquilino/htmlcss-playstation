@@ -85,7 +85,6 @@ ul {
 
 .ms_banner h1 {
     margin-bottom: 2rem;
-    font-size: 2rem;
 }
 
 .ms_btn-red {
@@ -215,6 +214,8 @@ ul {
     width: 200px;
 }
 
-.ms_second-banner .ms_btn-red {
-    margin-bottom: ;
+/* new games */
+.ms_section-new-games {
+    background-color: #272727;
+    color: white;
 }
