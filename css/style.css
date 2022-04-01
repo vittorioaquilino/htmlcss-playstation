@@ -227,3 +227,35 @@ ul {
 }
 
 /* play plus */
+.ms_play-plus {
+    background-color: #BEBCBC;
+}
+
+.ms_plus-logo {
+    width: 300px;
+    padding-top: 7rem;
+}
+
+.ms_plus-img {
+    display: none;
+}
+
+.ms_btn-light {
+    color: #0072ce;
+    border-radius: 3rem;
+    opacity: .8;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px){
+    .ms_plus-img {
+        display: block;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:991px){
+    .ms_plus-logo {
+        padding-top: 4rem;
+    }
+}
