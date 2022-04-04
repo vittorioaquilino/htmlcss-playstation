@@ -60,6 +60,11 @@ ul {
     vertical-align: middle;
 }
 
+.ms_btn-dark:hover {
+    outline: 2px solid black;
+    outline-offset: 1px;
+}
+
 .ms_search i {
     color: black;
     font-size: 1.3rem;
@@ -97,9 +102,10 @@ ul {
 }
 
 .ms_btn-red:hover {
-    background-color: white;
-    color: #CD4418;
-    border-color: #CD4418;
+    outline: 2px solid #CD4418;
+    outline-offset: 1px;
+    background-color: #CD4418;
+    border: 1px solid #CD4418;
 }
 
 .ms_banner-text {
@@ -147,9 +153,10 @@ ul {
 }
 
 .ms_btn-blue:hover {
-    background-color: white;
-    color: #3569E4;
-    border-color: #3569E4;
+    outline: 2px solid #3569E4;
+    outline-offset: 1px;
+    background-color: #3569E4;
+    border: 1px solid #3569E4;
 }
 
 @media screen and (min-width:565px) {
@@ -278,6 +285,12 @@ ul {
     border-radius: 3rem;
 }
 
+.ms_btn-white:hover {
+    outline: 2px solid white;
+    outline-offset: 1px;
+    background-color: white;
+    border: 1px solid white;
+}
 /* social */
 .ms_section-social {
     margin-bottom: 6rem;
